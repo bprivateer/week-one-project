@@ -1,0 +1,133 @@
+body, * {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F2F1E8;
+
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  align-items: center;
+
+}
+
+.navbar{
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  align-content: center;
+  border-width: thick;
+  padding: : 20px;
+  margin-left: 400px;
+
+}
+
+.navbar a{
+  color: #2B2F26;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navbar a:hover{
+  color: #CD5D67;
+}
+
+.nav-link{
+  margin: 10px;
+}
+
+.p{
+  font-family: "merriweather";
+margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#h3{
+  font-weight: lighter;
+}
+
+.content{
+  display: flex;
+  flex-flow: : row nowrap;
+margin: 10px;
+
+}
+
+.image{
+  color: white;
+  background-color: #F2F1E8;
+  height: 30vw;
+width: 40vw;
+margin: 10px;
+
+}
+
+h4{
+  margin-top: 250px;
+  font-family: "merriweather";
+  background-color: #282F26;
+  padding: 10px;
+  float: left;
+}
+
+
+#one {
+  background-image: url("images/product-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-grow: 3
+
+}
+#two {
+  background-image: url("images/product-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#three {
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.content2{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#four{
+  background-image: url("images/product-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#five{
+  background-image: url("images/product-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#six{
+  background-image: url("images/product-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#seven{
+  background-image: url("images/product-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer{
+  display: flex;
+  color: white;
+  padding: 30px;
+  align-items: center;
+  background-color: #2B2F26;
+}

@@ -1,0 +1,44 @@
+body, * {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  align-items: center;
+
+}
+
+.navbar{
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  align-content: center;
+  border-width: thick;
+  padding: : 20px;
+  margin-left: 400px;
+
+}
+
+.navbar a{
+  color: #2B2F26;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navbar a:hover{
+  color: #CD5D67;
+}
+
+.nav-link{
+  margin: 10px;
+}
+
+
+ body{
+   background-image: url("images/background-2.jpg");
+   background-repeat: no-repeat;
+}
