@@ -18,7 +18,7 @@ body, * {
   align-content: center;
   border-width: thick;
   padding: : 20px;
-  margin-left: 400px;
+  margin-left: 380px;
 
 }
 
@@ -41,4 +41,47 @@ body, * {
  body{
    background-image: url("images/background-2.jpg");
    background-repeat: no-repeat;
+   background-size: 100%;
+   font-family: "merriweather"
+}
+
+h2{
+  font-weight: normal;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 330px;
+  padding: 30px;
+  background-color: white;
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  border: solid white 3px;
+float: left;
+}
+#contentt{
+  font-family: sans-serif;
+  color: #DEB887;
+  display: flex;
+  border-bottom: solid #DEB887 2px;
+  margin-top: 40px;
+}
+#contenttt{
+  font-family: sans-serif;
+  color: #DEB887;
+  display: flex;
+  border-bottom: solid #DEB887 2px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#button{
+  background-color: #DEB887;
+  display: inline-block;
+  padding: 9px 19px 9px 19px;
+  color: white;
+  font-family: sans-serif;
 }
